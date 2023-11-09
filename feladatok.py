@@ -26,7 +26,7 @@ def harmadik(text,N):
     if N > hossz:
         print("Nincs N. karakter!”")
     elif hossz >= N:
-        print(text.upper()[N-1]*3)
+        print(f"A szöveg {N}. karaktere: {text[N-1]} - {text.upper()[N-1]*3}")
 
 #4.feladat
 def negyedik():
